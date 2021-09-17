@@ -648,5 +648,13 @@ var checkboxCheckedAndDisabled = document.querySelector('input[disabled][checked
 // var divElement1 = document.querySelectorAll("body div")[1];
 // divElement1.outerHTML = "<h1> div 2 </h1>";
 
+// var boxElement = document.querySelector(".box");
+// console.log(boxElement.childElementCount);
 var boxElement = document.querySelector(".box");
-console.log(boxElement.childElementCount);
+
+Object.assign(boxElement.style, {
+	width: "200px",
+	height: "100px",
+	backgroundColor: "pink",
+});
+console.log(boxElement.style.backgroundColor);
